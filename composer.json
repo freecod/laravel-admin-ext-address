@@ -1,0 +1,31 @@
+{
+    "name": "freecod/laravel-admin-ext-address",
+    "description": "Address field for laravel-admin using dadata service",
+    "type": "library",
+    "keywords": ["laravel-admin", "extension", "dadata.ru"],
+    "homepage": "https://github.com/freecod/laravel-admin-ext-address",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "freecod",
+            "email": "freecod@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "encore/laravel-admin": "~1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Freecod\\LaravelAdminExt\\Address\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Freecod\\LaravelAdminExt\\Address\\AddressServiceProvider"
+            ]
+
+        }
+    }
+}
