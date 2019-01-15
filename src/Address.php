@@ -44,8 +44,8 @@ class Address extends Field
 	];
 	
 	protected static $js = [
-		'/vendor/laravel-admin/address/dadata/js/jquery.xdomainrequest.min.js',
-		'/vendor/laravel-admin/address/dadata/js/jquery.suggestions.min.js',
+		'/vendor/laravel-admin-ext/address/dadata/js/jquery.xdomainrequest.min.js',
+		'/vendor/laravel-admin-ext/address/dadata/js/jquery.suggestions.min.js',
 	];
 	
 	public function default($address)
